@@ -36,11 +36,6 @@
   column-gap: 20px;
 }
 
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-}
-
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -72,11 +67,6 @@
   align-items: center;
   justify-content: flex-end;
   box-sizing: border-box;
-}
-
-.header__link {
-  color: #2f80ed;
-  text-decoration: none;
 }
 
 .header__address {
