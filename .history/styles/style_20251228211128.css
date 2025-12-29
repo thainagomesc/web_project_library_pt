@@ -257,24 +257,24 @@
 }
 
 .person_name_cannon {
-  top: auto;
+  top: 200px;
   right: 216px;
-  bottom: 18px;
+  bottom: auto;
   left: auto;
 }
 
 .person_name_mitchell {
-  top: auto;
-  right: auto;
-  bottom: 82px;
-  left: 142px;
+  top: 200px;
+  right: 150px;
+  bottom: auto;
+  left: auto;
 }
 
 .person_name_tarter {
-  top: 79px;
-  right: auto;
+  top: 200px;
+  right: 150px;
   bottom: auto;
-  left: 159px;
+  left: auto;
 }
 
 .person__image {

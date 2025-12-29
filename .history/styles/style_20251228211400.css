@@ -271,10 +271,10 @@
 }
 
 .person_name_tarter {
-  top: 79px;
-  right: auto;
+  top: 200px;
+  right: 150px;
   bottom: auto;
-  left: 159px;
+  left: auto;
 }
 
 .person__image {

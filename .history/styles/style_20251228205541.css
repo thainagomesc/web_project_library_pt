@@ -245,36 +245,24 @@
 .person_name_feynman {
   top: 30px;
   right: 319px;
-  bottom: auto;
+  bottom: 0;
   left: auto;
 }
 
 .person_name_burbidge {
-  top: 96px;
-  right: 125px;
-  bottom: auto;
-  left: auto;
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_cannon {
-  top: auto;
-  right: 216px;
-  bottom: 18px;
-  left: auto;
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_mitchell {
-  top: auto;
-  right: auto;
-  bottom: 82px;
-  left: 142px;
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person_name_tarter {
-  top: 79px;
-  right: auto;
-  bottom: auto;
-  left: 159px;
+  /* Use os valores corretos das propriedades top/right/bottom/left para posicionar o elemento */
 }
 
 .person__image {
