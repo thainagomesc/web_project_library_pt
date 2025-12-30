@@ -84,6 +84,8 @@
   color: #838383;
 }
 
+/* STAFF SECTION */
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
@@ -315,68 +317,62 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto 0;
-  display: flex;
+  margin: 100px 0 0;
+  display: flex; /* Flexbox para organizar os passos */
   justify-content: center;
-  gap: 40px;
-  max-width: 1000px;
+  gap: 40px; /* Lacuna entre os cartões conforme design */
 }
+
 .step {
-  flex-basis: 220px;
+  flex-basis: 220px; /* Define o tamanho inicial conforme roteiro */
   display: flex;
   flex-direction: column;
-  gap: 10px;
 }
 
 .step__title {
   margin: 0;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 20px;
+}
+
+.step__icon {
+  margin-left: 20px;
 }
 
 .step__description {
   margin: 10px 0 0;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f;
+  background-color: #1f1f1f; /* Cor exata do roteiro */
   color: #ffffff;
-  padding: 60px 80px;
+  padding: 60px 80px; /* Padding vertical 60px e horizontal 80px */
 }
 
 .footer__columns {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-.footer__column {
-  display: flex;
-  flex-direction: column;
+  padding: 0; /* Certifique-se de que não há padding extra aqui */
+  margin-bottom: 100px; /* Distância para o copyright conforme diagrama [cite: 181] */
 }
 
 .footer__column_content_hours {
-  margin-left: auto;
-  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__logo {
   width: 58px;
-  height: 80px;
+  height: 80px; /* Tamanho exato do logotipo */
 }
 
 .footer__column-heading {
@@ -387,16 +383,16 @@
 }
 
 .footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
-  margin-bottom: 16px;
+  margin-bottom: 16px; /* Espaço entre itens da lista */
   font-size: 16px;
   line-height: 20px;
-  font-weight: 400;
 }
 
 .footer__list-item:last-child {
@@ -408,8 +404,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 400;
+  gap: 10px; /* Centralização e espaçamento entre ícone e texto */
 }
 
 .footer__social-icon {
@@ -418,7 +413,8 @@
 }
 
 .footer__copyright {
+  margin: 0;
   font-size: 16px;
   line-height: 20px;
-  margin: 0;
+  text-align: left; /* Alinhado à esquerda seguindo a logo */
 }

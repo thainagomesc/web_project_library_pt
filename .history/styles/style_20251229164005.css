@@ -84,6 +84,8 @@
   color: #838383;
 }
 
+/* STAFF SECTION */
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
@@ -315,110 +317,74 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto 0;
+  margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  gap: 40px;
-  max-width: 1000px;
+  gap: 60px;
 }
+
 .step {
-  flex-basis: 220px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  /* Adicione estilos */
 }
 
 .step__title {
   margin: 0;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 700;
   display: flex;
   align-items: center;
-  gap: 20px;
+}
+
+.step__icon {
+  margin-left: 20px;
 }
 
 .step__description {
   margin: 10px 0 0;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
 }
 
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f;
-  color: #ffffff;
-  padding: 60px 80px;
 }
 
 .footer__columns {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  margin-bottom: 100px;
-}
-
-.footer__column {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column_content_hours {
-  margin-left: auto;
-  margin-right: 80px;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__logo {
-  width: 58px;
-  height: 80px;
 }
 
 .footer__column-heading {
-  margin: 0 0 20px;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 700;
 }
 
 .footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
 .footer__list-item {
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 20px;
-  font-weight: 400;
-}
-
-.footer__list-item:last-child {
-  margin-bottom: 0;
 }
 
 .footer__column-link {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-weight: 400;
 }
 
 .footer__social-icon {
-  width: 16px;
-  height: 16px;
 }
 
 .footer__copyright {
-  font-size: 16px;
+  text-align: center;
+  font-size: 14px;
   line-height: 20px;
-  margin: 0;
+  color: #838383;
+  margin: 40px 0 20px;
 }

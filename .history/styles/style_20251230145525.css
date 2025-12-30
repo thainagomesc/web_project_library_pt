@@ -84,6 +84,8 @@
   color: #838383;
 }
 
+/* STAFF SECTION */
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
@@ -319,23 +321,29 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+
+  /* 🔑 ISSO ESTAVA FALTANDO */
   max-width: 1000px;
 }
 .step {
   flex-basis: 220px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 10px; /* melhora leitura e aproxima do design */
 }
 
 .step__title {
   margin: 0;
   font-size: 20px;
-  line-height: 20px;
-  font-weight: 700;
+  line-height: 30px;
+  font-weight: 400;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 20px; /* melhor que margin-left no ícone */
+}
+
+.step__icon {
+  margin-left: 0;
 }
 
 .step__description {
@@ -347,15 +355,15 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #1f1f1f;
+  background-color: #1f1f1f; /* Cor exata do roteiro */
   color: #ffffff;
-  padding: 60px 80px;
+  padding: 60px 80px; /* Padding vertical 60px e horizontal 80px */
 }
 
 .footer__columns {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-between; /* 🔑 ESSENCIAL */
   margin-bottom: 100px;
 }
 
@@ -370,6 +378,7 @@
 }
 
 .footer__column_content_social {
+  /* Esta coluna ficará encostada no limite do padding de 80px do footer [cite: 194] */
   display: flex;
   flex-direction: column;
 }
@@ -387,6 +396,7 @@
 }
 
 .footer__list {
+  /* O código abaixo remove os estilos do navegador padrão para listas */
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -408,8 +418,7 @@
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 400;
+  gap: 10px; /* Centralização e espaçamento entre ícone e texto */
 }
 
 .footer__social-icon {

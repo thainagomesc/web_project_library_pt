@@ -84,6 +84,8 @@
   color: #838383;
 }
 
+/* STAFF SECTION */
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
@@ -330,7 +332,7 @@
 
 .step__title {
   margin: 0;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 700;
   display: flex;

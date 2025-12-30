@@ -84,6 +84,8 @@
   color: #838383;
 }
 
+/* STAFF SECTION */
+
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
@@ -383,7 +385,7 @@
   margin: 0 0 20px;
   font-size: 16px;
   line-height: 20px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .footer__list {
